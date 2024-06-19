@@ -9,7 +9,7 @@ DDPH4205C::DDPH4205C(float adcVoltage){
 
 DDPH4205CVal DDPH4205C::convertValue(float v){
     DDPH4205CVal ret;
-    ret.volt = v;
+    ret.voltage = v;
     ret.ph = 7 - (((this->_adcVoltage / 2) - v) * this->_M_CONSTANT);
     return ret;
 }
