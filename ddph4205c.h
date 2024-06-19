@@ -7,7 +7,7 @@
 #define PH_CAL 9.18
 
 struct DDPH4205CVal{
-    float volt = 0.0;
+    float voltage = 0.0;
     float ph = 0.0;
 };
 
